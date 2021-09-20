@@ -17,3 +17,33 @@ body {
 .feature {
    color: #fff;
 }
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width:5rem;
+    font-size: 1.75rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: whitesmoke;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+footer {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}

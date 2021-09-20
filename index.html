@@ -1,87 +1,103 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="img/claudia.jpg" width="80px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/claudia.jpg" width="80px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="page-header gradient">
+    <div class="container pt-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-5">
+          <h2>A Website About Claudia Hernandez</h2>
+
+          <p>Author: Claudia Hernandez</p>
+          <button type="button" class="btn btn-outline-success btn-lg">Read more
+
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-          </div>
+          <a href="img/20130804_154826.mp4"><button type="button" class="btn btn-outline-warning btn-lg">Play Video
+
+          </button></a>
+
+
         </div>
-      </nav>
-      <header class="page-header gradient">
-        <div class="container pt-3">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-md-5">
-              <h2>A Website About Claudia Hernandez</h2>
+        <div class="col-md-5"><img src="img/yearkbook pic of me.jpg" height="500px" alt="Header image"></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,192L60,176C120,160,240,128,360,101.3C480,75,600,53,720,74.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
 
-              <p>Author: Claudia Hernandez</p>
-              <button type="button" class="btn btn-outline-success btn-lg">Read more
+  </header>
+  <section class="companies">
+    <div class="container text-center">
+      <div class="row g-5">
+        <div class="col-md-2"><img src="img/cheetah.jpg" width="50%" alt="Cheetah"></div>
+        <div class="col-md-2"><img src="img/wolves.jpg" width="50%" height="80%" alt="Wolves"></div>
+        <div class="col-md-2"><img src="img/sandwich.jpg" width="50%" alt="Sandwich"></div>
+        <div class="col-md-2"><img src="img/pink_shirt.jpg" width="50%" alt="Pink Shirt"></div>
+        <div class="col-md-2"><img src="img/boots.jpg" width="50%" alt="Boots"></div>
+        <div class="col-md-2"><img src="img/sally_graduation.jpg" width="50%" alt="Sally's Graduation"
+            class="img-fluid"></div>
+      </div>
+    </div>
+  </section>
 
-              </button>
-              <button type="button" class="btn btn-outline-warning btn-lg">Play Video
-
-              </button>
-
-
-            </div>
-            <div class="col-md-5"><img src="img/yearkbook pic of me.jpg" height="500px" alt="Header image"></div>
-          </div>
+  <section class="feature gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L48,160C96,192,192,256,288,256C384,256,480,192,576,176C672,160,768,192,864,218.7C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/fair.jpg" width="60%" alt="Fair">
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L60,176C120,160,240,128,360,101.3C480,75,600,53,720,74.7C840,96,960,160,1080,176C1200,192,1320,160,1380,144L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-
-      </header>
-      <section class="companies">
-        <div class="container text-center">
-          <div class="row g-5">
-            <div class="col-md-2"><img src="img/cheetah.jpg" width="50%" alt="Cheetah"></div>
-            <div class="col-md-2"><img src="img/wolves.jpg" width="50%" height="80%" alt="Wolves"></div>
-            <div class="col-md-2"><img src="img/sandwich.jpg" width="50%" alt="Sandwich"></div>
-            <div class="col-md-2"><img src="img/pink_shirt.jpg" width="50%" alt="Pink Shirt"></div>
-            <div class="col-md-2"><img src="img/boots.jpg" width="50%" alt="Boots"></div>
-            <div class="col-md-2"><img src="img/sally_graduation.jpg" width="50%" alt="Sally's Graduation" class="img-fluid"></div>
-          </div>
-        </div>
-      </section>
-
-      <section class="feature gradient">
-
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <img src="img/fair.jpg" width="60%" alt="Fair">
-          </div>
-          <div class="col-md-6"><h1 class="my-3">Introducing Claudia</h1>
-          <p class="my-4"> Claudia Elizabeth Hernandez was born June 3, 2006 at 7:02 a.m on a Saturday. Her parents are Juan Hernandez and Ana Trujillo. She has 4 siblings, 1 sister and 4 brothers.
+        <div class="col-md-6">
+          <h1 class="my-3">Introducing Claudia</h1>
+          <p class="my-4"> My full name is Claudia Elizabeth Hernandez I was born June 3, 2006 at 7:02 a.m on a
+            Saturday. My parents are
+            Juan Hernandez and Ana Trujillo. I has 4 siblings, 1 sister and 4 brothers.
           </p>
           <ul>
             <li>Mom: Ana Trujillo</li>
@@ -90,21 +106,155 @@
             <li>Step Dad: Juan Trujillo</li>
           </ul>
         </div>
-          <div class="col-md-6"></div>
+        <div class="col-md-6"></div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,128L48,160C96,192,192,256,288,256C384,256,480,192,576,176C672,160,768,192,864,218.7C960,245,1056,267,1152,250.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <section class="icons">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-skip-start-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM9.71 5.093 7 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407v-5a.5.5 0 0 0-.79-.407z" />
+            </svg></div>
+          <h3>dahfkahdkfhf</h3>
+          <p>hdshfkhfjkhsdfhshff fhaskjdfhsdjahf ahfdjhfhsdjfh b fhasdj hfs fsdhfh jfhadf
+            adhfg sdfsdfgf sajhfgsjd fhsgfhjsdgf hsdfgsdf.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-pause-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.25 5C5.56 5 5 5.56 5 6.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C7.5 5.56 6.94 5 6.25 5zm3.5 0c-.69 0-1.25.56-1.25 1.25v3.5a1.25 1.25 0 1 0 2.5 0v-3.5C11 5.56 10.44 5 9.75 5z" />
+            </svg></div>
+          <h3>dahfkahdkfhf</h3>
+          <p>hdshfkhfjkhsdfhshff fhaskjdfhsdjahf ahfdjhfhsdjfh b fhasdj hfs fsdhfh jfhadf
+            adhfg sdfsdfgf sajhfgsjd fhsgfhjsdgf hsdfgsdf.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="icon gradient mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+              fill="currentColor" class="bi bi-puzzle" viewBox="0 0 16 16">
+              <path
+                d="M3.112 3.645A1.5 1.5 0 0 1 4.605 2H7a.5.5 0 0 1 .5.5v.382c0 .696-.497 1.182-.872 1.469a.459.459 0 0 0-.115.118.113.113 0 0 0-.012.025L6.5 4.5v.003l.003.01c.004.01.014.028.036.053a.86.86 0 0 0 .27.194C7.09 4.9 7.51 5 8 5c.492 0 .912-.1 1.19-.24a.86.86 0 0 0 .271-.194.213.213 0 0 0 .039-.063v-.009a.112.112 0 0 0-.012-.025.459.459 0 0 0-.115-.118c-.375-.287-.872-.773-.872-1.469V2.5A.5.5 0 0 1 9 2h2.395a1.5 1.5 0 0 1 1.493 1.645L12.645 6.5h.237c.195 0 .42-.147.675-.48.21-.274.528-.52.943-.52.568 0 .947.447 1.154.862C15.877 6.807 16 7.387 16 8s-.123 1.193-.346 1.638c-.207.415-.586.862-1.154.862-.415 0-.733-.246-.943-.52-.255-.333-.48-.48-.675-.48h-.237l.243 2.855A1.5 1.5 0 0 1 11.395 14H9a.5.5 0 0 1-.5-.5v-.382c0-.696.497-1.182.872-1.469a.459.459 0 0 0 .115-.118.113.113 0 0 0 .012-.025L9.5 11.5v-.003a.214.214 0 0 0-.039-.064.859.859 0 0 0-.27-.193C8.91 11.1 8.49 11 8 11c-.491 0-.912.1-1.19.24a.859.859 0 0 0-.271.194.214.214 0 0 0-.039.063v.003l.001.006a.113.113 0 0 0 .012.025c.016.027.05.068.115.118.375.287.872.773.872 1.469v.382a.5.5 0 0 1-.5.5H4.605a1.5 1.5 0 0 1-1.493-1.645L3.356 9.5h-.238c-.195 0-.42.147-.675.48-.21.274-.528.52-.943.52-.568 0-.947-.447-1.154-.862C.123 9.193 0 8.613 0 8s.123-1.193.346-1.638C.553 5.947.932 5.5 1.5 5.5c.415 0 .733.246.943.52.255.333.48.48.675.48h.238l-.244-2.855zM4.605 3a.5.5 0 0 0-.498.55l.001.007.29 3.4A.5.5 0 0 1 3.9 7.5h-.782c-.696 0-1.182-.497-1.469-.872a.459.459 0 0 0-.118-.115.112.112 0 0 0-.025-.012L1.5 6.5h-.003a.213.213 0 0 0-.064.039.86.86 0 0 0-.193.27C1.1 7.09 1 7.51 1 8c0 .491.1.912.24 1.19.07.14.14.225.194.271a.213.213 0 0 0 .063.039H1.5l.006-.001a.112.112 0 0 0 .025-.012.459.459 0 0 0 .118-.115c.287-.375.773-.872 1.469-.872H3.9a.5.5 0 0 1 .498.542l-.29 3.408a.5.5 0 0 0 .497.55h1.878c-.048-.166-.195-.352-.463-.557-.274-.21-.52-.528-.52-.943 0-.568.447-.947.862-1.154C6.807 10.123 7.387 10 8 10s1.193.123 1.638.346c.415.207.862.586.862 1.154 0 .415-.246.733-.52.943-.268.205-.415.39-.463.557h1.878a.5.5 0 0 0 .498-.55l-.001-.007-.29-3.4A.5.5 0 0 1 12.1 8.5h.782c.696 0 1.182.497 1.469.872.05.065.091.099.118.115.013.008.021.01.025.012a.02.02 0 0 0 .006.001h.003a.214.214 0 0 0 .064-.039.86.86 0 0 0 .193-.27c.14-.28.24-.7.24-1.191 0-.492-.1-.912-.24-1.19a.86.86 0 0 0-.194-.271.215.215 0 0 0-.063-.039H14.5l-.006.001a.113.113 0 0 0-.025.012.459.459 0 0 0-.118.115c-.287.375-.773.872-1.469.872H12.1a.5.5 0 0 1-.498-.543l.29-3.407a.5.5 0 0 0-.497-.55H9.517c.048.166.195.352.463.557.274.21.52.528.52.943 0 .568-.447.947-.862 1.154C9.193 5.877 8.613 6 8 6s-1.193-.123-1.638-.346C5.947 5.447 5.5 5.068 5.5 4.5c0-.415.246-.733.52-.943.268-.205.415-.39.463-.557H4.605z" />
+            </svg></div>
+          <h3>dahfkahdkfhf</h3>
+          <p>hdshfkhfjkhsdfhshff fhaskjdfhsdjahf ahfdjhfhsdjfh b fhasdj hfs fsdhfh jfhadf
+            adhfg sdfsdfgf sajhfgsjd fhsgfhjsdgf hsdfgsdf.
+          </p>
         </div>
       </div>
+    </div>
+  </section>
 
-      </section>
+  <section class="gallery">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,224L80,234.7C160,245,320,267,480,261.3C640,256,800,224,960,224C1120,224,1280,256,1360,272L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+      </path>
+    </svg>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1>Look at some pictures of my family</h1>
+          <p>The first picture is my brother Eden. The second is me with my sister, step mom, and dad. The last is my brother Luca.</p>
+        </div>
+      </div>
+      <div class="row my-3 g-3">
+        <div class="col-md-4"><img src="img/flash.jpg" alt="Gallery Image" class="img-fluid"></div>
+        <div class="col-md-4"><img src="img/weird.jpg" alt="Gallery Image" class="img-fluid"></div>
+        <div class="col-md-4"><img src="img/luca.jpg" alt="Gallery Image" class="img-fluid"></div>
+      </div>
+      <div class="row mt-5 justify-content-end">
+        <div class="col-md-2">
+          <button type="button" class="btn btn-outline-secondary">
+            See all works
+          </button>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,224L80,234.7C160,245,320,267,480,261.3C640,256,800,224,960,224C1120,224,1280,256,1360,272L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+      </path>
+    </svg>
+  </section>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <section class="services gradient">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L24,170.7C48,149,96,107,144,80C192,53,240,43,288,80C336,117,384,203,432,229.3C480,256,528,224,576,192C624,160,672,128,720,144C768,160,816,224,864,208C912,192,960,96,1008,80C1056,64,1104,128,1152,128C1200,128,1248,64,1296,48C1344,32,1392,64,1416,80L1440,96L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"></path></svg>
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+      <div class="col-md-5">
+        <h1>Nicolas</h1>
+        <p>
+          8
+        </p>
+      </div>
+      <div class="col-md-5"><img src="img/nico.jpg" height="500px" alt=""></div>
+      <div class="col-md-5"><img src="img/lemonade.jpg" height="500px" alt=""></div>
+      <div class="col-md-5"><h1>Luca</h1>
+        <p>
+          5
+        </p></div>
+      <div class="col-md-5"><h1>Eden</h1>
+        <p>
+          3
+        </p></div>
+      <div class="col-md-5"><img src="img/mario.jpg" height="500px" alt=""></div>
+    </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L24,170.7C48,149,96,107,144,80C192,53,240,43,288,80C336,117,384,203,432,229.3C480,256,528,224,576,192C624,160,672,128,720,144C768,160,816,224,864,208C912,192,960,96,1008,80C1056,64,1104,128,1152,128C1200,128,1248,64,1296,48C1344,32,1392,64,1416,80L1440,96L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path></svg>
+  </section>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h1>Contact us:</h1>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="button" class="btn btn-outline-secondary">Send</button>
+        </div>
+        <div class="col-md-5">
+          <img src="img/willow.jpg" height="300px" alt="contact img">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <footer class="gradient">
+    <div class="container-fluid text-center">
+      <span>Made with <3 by Claudia</span>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
-  </body>
-</html> 
+</body>
+
+</html>
